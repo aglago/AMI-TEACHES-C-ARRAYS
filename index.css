@@ -1,28 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
 body {
-  font-size: 2em;
-  background-color: pink;
+  font-size: 1.5em;
+  /* background-color: pink; */
+  padding: 0 30px;
+  font-family: "Roboto";
+  font-weight: 300;
 }
 
 header {
-  font-size: 5em;
   font-family: "Baloo Tammudu 2", cursive;
+  font-size: 5em;
   text-align: center;
   color: deeppink;
 }
 
-div {
+/*div {
   width: 10px;
   height: 10px;
-}
+}*/
 
 .topic {
+  font-size: 2rem;
   font-weight: 600;
   text-align: center;
+  text-transform: uppercase;
+}
+
+.image {
+  max-width: 90%;
+  display: flex;
+  margin: auto;
 }
 
 .italic {
-  font-size: 3rem;
+  font-size: 2rem;
   color: blue;
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    font-size: 3rem;
+  }
 }
