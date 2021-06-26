@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600&display=swap");
+
+body {
+  font-size: 2em;
+  background-color: pink;
+}
+
+header {
+  font-size: 5em;
+  font-family: "Baloo Tammudu 2", cursive;
+  text-align: center;
+  color: deeppink;
+}
+
+div {
+  width: 10px;
+  height: 10px;
+}
+
+.topic {
+  font-weight: 600;
+  text-align: center;
+}
+
+.italic {
+  font-size: 3rem;
+  color: blue;
+}
